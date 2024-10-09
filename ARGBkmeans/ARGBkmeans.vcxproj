@@ -22,18 +22,18 @@
     <None Include="argb.csv" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="assignCluster.c" />
-    <ClCompile Include="euclidean.c" />
-    <ClCompile Include="evaluateSilhouette.c" />
-    <ClCompile Include="findfirstCenter.c" />
-    <ClCompile Include="findNewCenter.c" />
-    <ClCompile Include="isCenterChanged.c" />
-    <ClCompile Include="kmeans.c" />
-    <ClCompile Include="main.c" />
-    <ClCompile Include="normalize.c" />
-    <ClCompile Include="printCluster.c" />
-    <ClCompile Include="readCSV.c" />
-    <ClCompile Include="silhouetteCoefficient.c" />
+    <ClCompile Include="assignCluster.cpp" />
+    <ClCompile Include="euclidean.cpp" />
+    <ClCompile Include="evaluateSilhouette.cpp" />
+    <ClCompile Include="findfirstCenter.cpp" />
+    <ClCompile Include="findNewCenter.cpp" />
+    <ClCompile Include="isCenterChanged.cpp" />
+    <ClCompile Include="kmeans.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="normalize.cpp" />
+    <ClCompile Include="printCluster.cpp" />
+    <ClCompile Include="readCSV.cpp" />
+    <ClCompile Include="silhouetteCoefficient.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="euclidean.h" />

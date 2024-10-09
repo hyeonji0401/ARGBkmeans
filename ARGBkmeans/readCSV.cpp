@@ -1,8 +1,9 @@
 #include"inoutputCluster.h"
 
 void read_csv(double data[ROWS][COLS], const char* filename) {
-    FILE* file = fopen(filename, "r");
-    if (!file) {
+    FILE* file;
+    errno_t err = fopen_s(&file, filename, "r");
+    if (err!=0) {
         perror("Error opening file");
         return;
     }

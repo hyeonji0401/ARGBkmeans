@@ -20,40 +20,40 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="assignCluster.c">
+    <ClCompile Include="assignCluster.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="euclidean.c">
+    <ClCompile Include="euclidean.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="evaluateSilhouette.c">
+    <ClCompile Include="evaluateSilhouette.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="findfirstCenter.c">
+    <ClCompile Include="findfirstCenter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="findNewCenter.c">
+    <ClCompile Include="findNewCenter.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="isCenterChanged.c">
+    <ClCompile Include="isCenterChanged.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="kmeans.c">
+    <ClCompile Include="kmeans.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="main.c">
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="normalize.c">
+    <ClCompile Include="normalize.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="printCluster.c">
+    <ClCompile Include="printCluster.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="readCSV.c">
+    <ClCompile Include="readCSV.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="silhouetteCoefficient.c">
+    <ClCompile Include="silhouetteCoefficient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

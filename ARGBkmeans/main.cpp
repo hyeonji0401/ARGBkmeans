@@ -1,6 +1,6 @@
 #include "kmeans.h"
 
-int main(void) {
+int main() {
     int n = ROWS;     // 데이터 수
     int dim = COLS;   // 데이터 차원
     int k = 3;     // 군집 수
